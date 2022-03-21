@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title="Angular Property Binding Example"
 
-  value="";
+  name = 'Peter';
 
-  clearValue() {
-   this.value="";
- }
+  updateName() {
+    this.name = 'John';
+  }
 }
