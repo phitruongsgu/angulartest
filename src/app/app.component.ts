@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angulartest';
+  title="Angular Property Binding Example"
+
+  value="";
+
+  clearValue() {
+   this.value="";
+ }
 }
